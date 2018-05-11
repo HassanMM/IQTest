@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roqa7hmed.design.Myhelp"
+    android:background="@drawable/woodbackground">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/backbutton"
+            android:layout_width="32dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/arrowback" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I Think Help"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"/>
+            <!--android:paddingLeft="50dp"-->
+            <!--android:paddingTop="90dp"-->
+            <!--android:textSize="30dp"/>-->
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:text="This application helps you to know your IQ ,this IQ test contain 5 levels each level contain 5 questions, make sure you choose the correct answer , each correct...\nEnjoy"
+            android:textSize="20dp"/>
+            <!--android:paddingLeft="50dp"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:paddingRight="25dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="25dp"-->
+
+        <Button
+            android:id="@+id/Start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wood"
+            android:layout_below="@id/textView3"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="Start"
+            android:gravity="center"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="60dp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
